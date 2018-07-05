@@ -1,0 +1,27 @@
+.container {
+  padding: 25px;
+  margin: 25px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+mat-cell, mat-footer-cell, mat-header-cell {
+  flex: 1;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;  
+  /*display: block;*/
+  overflow: hidden;
+  padding-left: 20px;
+}
